@@ -6,11 +6,11 @@ document.write(cidades[1] + "<br>")
 document.write(cidades[3] + "<br>")
 document.write(cidades[5] + "<br>")
 
-var roteiros = html.split("#");
-document.write('<b>Roteiros A:</b>' + "<br>");
-document.write(roteiros[1].split("<br>")[0] + "<br>");
-document.write(roteiros[5].split("<br>")[0] + "<br>");
-document.write(roteiros[9].split("<br>")[0] + "<br>");
+var roteiros = html.split("#")
+document.write('<b>Roteiros A:</b>' + "<br>")
+document.write(roteiros[1])
+document.write(roteiros[4])
+document.write(roteiros[7])
 
 
 var locaisRoteiroA1 = roteiros[1].split("|")[1].trim().split(";").length;
